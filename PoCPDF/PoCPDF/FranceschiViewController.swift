@@ -1,7 +1,7 @@
 import UIKit
 import PDFKit
 
-class ViewControllerFranceschi: UIViewController {
+class FranceschiViewController: UIViewController {
     var pdfView: PDFView! // Declaração de uma variável para o visualizador de PDF
     
     override func viewDidLoad() {

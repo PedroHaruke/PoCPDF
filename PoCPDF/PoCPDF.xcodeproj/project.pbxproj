@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0CAFAAA0299AAB7300BB9F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAA9F299AAB7300BB9F10 /* AppDelegate.swift */; };
 		0CAFAAA2299AAB7300BB9F10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAAA1299AAB7300BB9F10 /* SceneDelegate.swift */; };
-		0CAFAAA4299AAB7300BB9F10 /* ViewControllerFranceschi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAAA3299AAB7300BB9F10 /* ViewControllerFranceschi.swift */; };
+		0CAFAAA4299AAB7300BB9F10 /* FranceschiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAAA3299AAB7300BB9F10 /* FranceschiViewController.swift */; };
 		0CAFAAA9299AAB7600BB9F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFAAA8299AAB7600BB9F10 /* Assets.xcassets */; };
 		0CAFAAAC299AAB7600BB9F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFAAAA299AAB7600BB9F10 /* LaunchScreen.storyboard */; };
 		0CAFAAB7299AAB7600BB9F10 /* PoCPDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAAB6299AAB7600BB9F10 /* PoCPDFTests.swift */; };
 		0CAFAAC1299AAB7600BB9F10 /* PoCPDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAAC0299AAB7600BB9F10 /* PoCPDFUITests.swift */; };
 		0CAFAAC3299AAB7600BB9F10 /* PoCPDFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFAAC2299AAB7600BB9F10 /* PoCPDFUITestsLaunchTests.swift */; };
 		0CAFAAD1299AB1B200BB9F10 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAFAAD0299AB1B200BB9F10 /* PDFKit.framework */; };
+		0CBBEEC629A6F053003B15E1 /* DMSBunierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBEEC529A6F053003B15E1 /* DMSBunierViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		0CAFAA9C299AAB7300BB9F10 /* PoCPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoCPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFAA9F299AAB7300BB9F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CAFAAA1299AAB7300BB9F10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CAFAAA3299AAB7300BB9F10 /* ViewControllerFranceschi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFranceschi.swift; sourceTree = "<group>"; };
+		0CAFAAA3299AAB7300BB9F10 /* FranceschiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranceschiViewController.swift; sourceTree = "<group>"; };
 		0CAFAAA8299AAB7600BB9F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAFAAAB299AAB7600BB9F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CAFAAAD299AAB7600BB9F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		0CAFAAC0299AAB7600BB9F10 /* PoCPDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoCPDFUITests.swift; sourceTree = "<group>"; };
 		0CAFAAC2299AAB7600BB9F10 /* PoCPDFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoCPDFUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0CAFAAD0299AB1B200BB9F10 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		0CBBEEC529A6F053003B15E1 /* DMSBunierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSBunierViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			children = (
 				0CAFAA9F299AAB7300BB9F10 /* AppDelegate.swift */,
 				0CAFAAA1299AAB7300BB9F10 /* SceneDelegate.swift */,
-				0CAFAAA3299AAB7300BB9F10 /* ViewControllerFranceschi.swift */,
+				0CAFAAA3299AAB7300BB9F10 /* FranceschiViewController.swift */,
+				0CBBEEC529A6F053003B15E1 /* DMSBunierViewController.swift */,
 				0CAFAAA8299AAB7600BB9F10 /* Assets.xcassets */,
 				0CAFAAAA299AAB7600BB9F10 /* LaunchScreen.storyboard */,
 				0CAFAAAD299AAB7600BB9F10 /* Info.plist */,
@@ -266,7 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAFAAA4299AAB7300BB9F10 /* ViewControllerFranceschi.swift in Sources */,
+				0CBBEEC629A6F053003B15E1 /* DMSBunierViewController.swift in Sources */,
+				0CAFAAA4299AAB7300BB9F10 /* FranceschiViewController.swift in Sources */,
 				0CAFAAA0299AAB7300BB9F10 /* AppDelegate.swift in Sources */,
 				0CAFAAA2299AAB7300BB9F10 /* SceneDelegate.swift in Sources */,
 			);
